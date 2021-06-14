@@ -1,0 +1,409 @@
+$cul1: #edb5b6
+$cul2: #881F20
+=btn_box
+    width: 180px
+    height: 35px
+    box-shadow: 0px 4px 4px #B4A3A3
+    border-radius: 10px 
+    font-size: 18px
+    text-align: center
+    text-transform: capitalize
+    color: #FFFBFB
+    border: none
+    padding: 5px
+    &:hover
+        background-color: white
+        color: $cul2
+        text-decoration: none
+
+*
+    font-family: 'Roboto', sans-serif
+    font-size: 18px
+@import "media"
+
+.subheader
+    width: 100%
+    display: flex
+    justify-content: flex-end
+    padding: 5px
+    
+    img.log
+        position: relative
+        right: 500px
+        width: 400px
+        z-index: 5
+.telef
+    margin-top: 7px
+    margin-right: 15px
+    z-index: 1
+    a
+        text-decoration: none
+        color: #000000
+    
+.contmenu
+    background: #dddada
+    position: relative
+    top: -80px
+    z-index: 2
+
+.container-nav1
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    align-items: center
+    height: 40px
+    & li
+        padding: 5px 50px 5px 5px
+        list-style: none
+        margin: 1px 15px 1px 3px 
+        & l
+        & a
+            display: block
+            padding: 3px 10px 3px 10px
+            color: #000000
+            text-decoration: none
+            font-size: 14px
+            font-weight: regular           
+            &:hover
+                color: $cul2
+li.activ
+    background: #fcf0f0            
+
+
+
+
+.btn_1
+    @include btn_box
+    background-color: $cul1
+    display: block
+    text-decoration: none
+    
+.btn_2
+    @include btn_box
+    background-color: $cul2
+    font-weight: 700
+    display: block
+    text-decoration: none
+.avatar
+    background: url("../img/princ/bg1.jpg") center (center / cover) no-repeat
+    height: 78vh
+.cont
+    width: 1200px
+    margin: 0 auto
+    display: flex
+.logo
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    & h1
+        font-family: Caveat
+        position: relative
+        right: -50px   
+    & a
+        display: block
+        position: relative
+        right: -80px 
+        margin-top: 20px
+
+.avatar_foto
+    position: relative
+    top: -20px
+
+.foto2
+    margin: 350px -200px
+    background: rgba(1,1,1,0.5 )
+.promo
+    background: url("../img/princ/promo.jpg")center (center / cover) no-repeat
+    background-attachment: fixed
+    height: 300px 
+.wrap
+    weight: 100%
+    height: 100%
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+.actie
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-end
+    background-image: url("../img/princ/linii.png"), url("../img/bg.jpg")
+    background-repeat: no-repeat, repeat
+    background-position: 0 100px
+    weight: 800px
+    height: 150px
+    border-radius: 0 40px 0 0
+    & p
+        letter-spacing: 0.4em
+        font-weight: 700
+        line-height: 0px
+        margin-top: -20px
+h2
+    font-size: 36px
+    letter-spacing: 0.2em
+    text-transform: uppercase
+    color: #881F20
+    text-align: center
+.servicii
+    background: url("../img/princ/linii.png"), url("../img/princ/linii_dr.png"), linear-gradient( rgba(255, 252, 252, 0.5) 70%), url("../img/bg.jpg")
+    background-repeat: no-repeat, no-repeat, repeat, repeat
+    background-position: 0 50px, right 50px
+    padding: 50px 0 100px
+    margin-top: 100px
+    & h2         
+        text-align: center
+        margin-top: 50px
+.servicii_item
+    padding: 5px
+    display: flex
+    margin-top: 20px
+    & img
+        border-radius: 20px
+        border: 3px solid white
+.servicii_descr
+    padding: 10px
+h3 
+    color: $cul2
+    font-size: 24px
+    weight: bold
+.curs_text
+    display: flex
+    position: relative
+.rind
+    display: block
+    flex-direction: row
+    a
+        text-decoration: none
+        color: #000000
+        size: 24px
+        text-transform: uppercase
+        font-weight: bold
+        &:hover
+            color: $cul2
+
+.curs1
+    display: block
+    weight: 245px
+    height: 250px
+    position: relative
+    border: 4px solid $cul1
+    border-bottom: none  
+    margin: 30px
+    padding: 20px   
+.curs2
+    display: inline-block
+    weight: 350px
+    height: 160px 
+    position: relative
+    border: 4px solid $cul1
+    border-left: none 
+    margin: 30px
+    padding: 20px
+    text-align: right  
+    position: absolute
+    top: 150px  
+    left: 480px
+    z-index: 2
+.curs3
+    display: inline-block
+    weight: 230px
+    height: 150px 
+    position: absolute
+    top: 350px  
+    left: 250px
+    border: 4px solid $cul1
+    border-right: none
+    margin: 30px
+    padding: 20px 
+.mare
+    font-weight: bold
+    font-size: 34px
+
+    
+.curs
+    background-image: url("../img/princ/bg3.jpg")
+    background-repeat: no-repeat
+    background-position: 630px 100px
+    position: relative
+    height: 600px
+    padding-top: 50px
+.curs_img1
+    position: absolute
+    top: 130px  
+    left: 750px
+    z-index: 1
+.curs_img2
+    position: absolute
+    top: 200px  
+    left: 1050px
+.important
+    padding: 50px 0 50px
+    background: url("../img/princ/linii.png"), url("../img/princ/linii_dr.png"), linear-gradient( rgba(255, 252, 252, 0.8) 50%), url("../img/princ/bg4.jpg")
+    background-repeat: no-repeat, no-repeat, repeat, repeat
+    background-size: 20%
+    background-position: 0 50px, bottom right
+.imp_desc
+    background-color: #F1ECEC
+    border-radius: 70px
+    text-align: center
+    padding: 10px
+.recenzii
+    background: url("../img/princ/bg5.jpg") center (center / auto) no-repeat
+    display: flex
+    justify-content: center
+    item-align: center
+    height: 500px
+.recenzii_text
+    max-width: 400px
+    margin-top: 110px
+    p
+        margin-top: 30px
+.recenzii_video
+    margin-top: 140px
+    max-width: 600px
+.teama
+    display: flex
+    justify-content: center
+    align-items: flex-end
+    height: 400px
+    background: url("../img/princ/linii.png"), url("../img/princ/linii_dr.png")
+    background-repeat: no-repeat
+    background-position: bottom left, bottom right
+    & img
+        max-width: 600px
+.teama_text
+    max-width: 600px
+    p
+        margin-top: 20px
+        line-height: 20px
+.futer
+    height: 50px
+    background: $cul1
+    display: flex
+    align-items: center
+.sur
+    color: #8D8C8C
+.caveat
+    font-family: caveat
+.logoprincipal
+    display: block
+    position: absolute
+    left: 150px
+    top: -20px
+    z-index: 10
+.mireasa
+    background: url("../img/bgr.jpg") center (center / contain) no-repeat
+    height: 90vh
+    position: relative
+    h1
+        font-size: 36px
+        color: $cul2
+        letter-spacing: 0.1em
+        text-transform: uppercase
+        margin-top: 50px
+        margin-bottom: 20px
+    h4
+        font-weight: 300
+        font-size: 24px
+        color: #807e7e
+    p
+        margin-top: 20px
+    button
+        margin-top: 20px  
+    img
+        margin-top: 50px
+.mireasa_foto1
+    position: absolute
+    top: 280px
+.mireasa_foto2
+    position: absolute
+    top: 10px
+    left: 50px
+.mireasa_foto3
+    position: absolute
+    top: 150px
+    left: 400px
+.galerie
+    background: url("../img/princ/linii.png"), url("../img/princ/linii_dr.png"), url("../img/bg.jpg")
+    background-repeat: no-repeat, no-repeat, repeat
+    background-size: 20%
+    background-position: 0 50px, bottom right
+    height: 450px
+    padding: 20px
+.descriere_mireasa
+    background: linear-gradient( rgba(255, 252, 252, 0.8) 50%), url("../img/nunta/bg.jpg") center (center / cover) no-repeat
+    margin-top: 50px
+    margin-bottom: 50px
+    padding: 50px
+    
+.container_mireasa
+    width: 700px
+    margin: 0 auto
+    h2
+        text-align: left
+.descriere_stil
+    background: linear-gradient( rgba(255, 252, 252, 0.8) 50%), url("../img/stil/bg.jpg") center (center / cover) no-repeat
+    margin-top: 50px
+    margin-bottom: 50px
+    padding: 50px
+.s_foto1
+    position: absolute
+    top: -50px
+.s_foto2
+    position: absolute
+    top: 280px
+    left: 350px
+.s_foto3
+    position: absolute
+    top: 500px
+    left: 250px
+
+.c_foto1
+    position: absolute
+.cursuri
+    background: url("../img/curs/bg1.jpg") center (left / auto) no-repeat
+    height: 70vh
+    position: relative
+    h1
+        font-size: 36px
+        color: $cul2
+        letter-spacing: 0.1em
+        text-transform: uppercase
+        margin-top: 80px
+        margin-bottom: 20px
+    h4
+        font-weight: 300
+        font-size: 24px
+        color: #807e7e
+    p
+        margin-top: 20px
+.curs_foto1
+    position: absolute
+    top: 50px
+.end
+    text-align: right
+.center
+    text-align: center
+.carduri_item_text
+    background: rgba(237, 181, 182, 0.5)
+    padding: 40px 20px 30px 20px
+    position: relative
+    top: -50px
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    h3
+        font-size: 18px
+.carduri_item_den
+    background: rgba(255, 251, 251, 0.9)
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 20px
+    padding: 10px
+.carduri_item_img
+    img
+        width: 100%
+
+
+
+        
