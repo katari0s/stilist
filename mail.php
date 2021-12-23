@@ -1,9 +1,9 @@
 <?php
 
-$method = $_SERVER['REQUEST_METHOD'];
+$method = $_SERVER['POST'];
 
 //Script Settings
-$from_name  = "Project Name";     //Change
+$form_name  = "Project Name";     //Change
 $recepient = "morozan_ek@gmail.com"; //Change
 $subject   = "E-mail Subject";   //Change
 
