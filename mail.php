@@ -3,7 +3,7 @@
 $method = $_SERVER['REQUEST_METHOD'];
 
 //Script Settings
-$frm_name  = "Project Name";     //Change
+$from_name  = "Project Name";     //Change
 $recepient = "morozan_ek@gmail.com"; //Change
 $subject   = "E-mail Subject";   //Change
 
